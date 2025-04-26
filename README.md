@@ -16,36 +16,17 @@ Secure database storage using MySQL
 
 🚀 How to Run
 Clone the repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/avinash-kumar243/Employee-Management-System.git
-Open the project in your Java IDE.
-
+Open the project in our Java IDE.
 Configure your MySQL database:
-
 Create a database (e.g., employee_management)
-
 Import the SQL file if provided or create necessary tables manually.
-
-Update the database connection settings in the code (username, password).
-
+Update the database connection settings in the code (username, password)
 Run the main file to start the application.
 
 📂 Project Structure
-plaintext
-Copy
-Edit
 src/
  ├── database/    # Database connection files
  ├── gui/         # All Swing GUI screens
  ├── model/       # Employee model classes
  ├── service/     # Employee services (CRUD operations)
  └── Main.java    # Entry point
-📸 Screenshots
-(Add a few screenshots of your app running!)
-
-🤝 Contribution
-Contributions are welcome!
-Fork the repo, make changes, and create a pull request.
