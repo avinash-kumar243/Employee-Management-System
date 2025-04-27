@@ -1,5 +1,6 @@
-Employee-Management-System
+📂 Employee Management System
 A Java-based Employee Management System using AWT, Swing, JDBC, and MySQL.
+
 
 🛠 Features
 1. Add new employee details
@@ -8,11 +9,12 @@ A Java-based Employee Management System using AWT, Swing, JDBC, and MySQL.
 4. View employee data
 5. Search employees
 
-Secure database storage using MySQL
-🖥️ Tech Stack
+
+🖥️ Tech Stack used
 1. Java (AWT, Swing for GUI)
 2. MySQL (Database)
 3. JDBC (Database connectivity)
+
 
 🚀 How to Run
 Clone the repository:
@@ -23,10 +25,38 @@ Import the SQL file if provided or create necessary tables manually.
 Update the database connection settings in the code (username, password)
 Run the main file to start the application.
 
+
 📂 Project Structure
-src/
- ├── database/    # Database connection files
- ├── gui/         # All Swing GUI screens
- ├── model/       # Employee model classes
- ├── service/     # Employee services (CRUD operations)
- └── Main.java    # Entry point
+Employee-Management-System/
+├── Source Packages/
+│   └── employee.management.system/
+│       ├── AddEmployee.java
+│       ├── Conn.java
+│       ├── Home.java
+│       ├── Login.java
+│       ├── RemoveEmployee.java
+│       ├── Splash.java
+│       ├── UpdateEmployee.java
+│       ├── ViewEmployees.java
+│
+├── icons/
+│   ├── add_employee.jpg
+│   ├── delete.png
+│   ├── details.jpg
+│   ├── front.jpg
+│   ├── home.jpg
+│   ├── print.jpg
+│   ├── remove.jpg
+│   ├── second.jpg
+│   └── view.jpg
+│
+├── Test Packages/
+│   └── (empty)
+│
+├── Libraries/
+│   ├── mysql-connector-j-9.2.0.jar
+│   ├── jcalendar-1.4.jar
+│   ├── rs2xml.jar
+│   └── JDK 21 (Default)
+│
+└── Test Libraries/
